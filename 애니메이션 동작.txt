@@ -1,0 +1,184 @@
+walk -> 걷기
+celebration_spin -> 한바퀴 휭 돌기
+Attack_SpinSweep -> 땅에 손을 짚고 몸을 낮춰서 한발을 쭉 뻗고 원을 그리며 공격
+run_sprint -> 이게 진짜 뛰는 동작임, 그냥 run은 이상한 애니메이션임
+밑에 run정상인게 하나 있긴 함. 근데 sprint가 더 앞에 숙여서 뛰는것럼 보임
+
+run_start, run_stop
+JumpStart -> 처음 점프할 때 모션
+JumpDouble -> 이단점프 할 때 모션
+JumpApexMoving->몸을 동그랗게 만들어 굴러가는 모션
+
+JumpLandRun->착지하자마자 바로 뛰는 동작
+JumpLand / Hop -> 착지동작
+JumpFallLoop -> 점프 후 떨어질때 동작
+
+
+AttackCast-> 뭔가 던지는것 같은 모션임
+Attack_spin_2Loop -> 팔다리모으고 공격회전 모션
+Attack_Spin_2Out-> 공격회전 멈춘다
+Attack_Spin_3Loop-> 팔, 다리를 더 벌려서 공격
+
+Attack_slide_In->일어서있다가 자세를 낮추며 슬라이드자세를 취한다
+Attack_Slicde_Loop-> 앉아서 슬라이드자세를 유지한다
+Attack_slide_out->슬라이드자세 취하다가 일어선다
+
+0번 ATTACK_SLIDE_IN
+1번 ATTACK_SLIDE_LOOP
+2번 ATTACK_SLIDE_OUT
+3번 ATTACK_SPIN_3_Loop
+4번 ATTACK_SPIN_3_Out
+5번 DANCE
+6번 Death_Electrocuted
+7번 Death_Plank
+8번 Death_Rail_Grind_Splats
+9번 Death_SpinFall
+10번 IDLE
+11번 JetBoard_DeathbyExplosion
+12번 JumpDouble
+13번 JumpFallLoop
+14번 JumpLand
+15번 JumpLandRun
+16번 JumpStart
+17번 JumpUpLoop
+18번 Level_Start_Dance
+19번 Run_Sprint
+20번 Run_Start
+21번 Run_Stop
+22번 Walk
+
+//////////////////////////////////
+Crab Animation
+0번 공격
+1번 Death_JumpedOn
+2번 Death_JumpedOn
+3번 Death_Slammed
+4번 Run_left
+5번 Run_Right
+6번 Victory
+
+////////////////////////////////
+Pig Animation
+0번 Attack_Success
+1번 Death_JumpodOn
+2번 Death_Slammed
+3번 Death_spin
+4번 신나서 날뜀
+5번 신나서 날뜀2
+6번 Run이라지만 walk
+7번 TurnAround
+
+////////////////////////////////
+Juggler Animation
+0번 Celebrate
+1번 Detah_Spin
+2번 Move_Backwards
+3번 Move_forward
+4번 Wait
+
+///////////////////////////////////
+JackBox Animation
+0번 Death
+1번 때리고 튀기
+2번 뭔지 모르겠음(하지마)
+3번 Play_Telegraph
+4번 손잡이 계속 돌아감
+5번 Popout_End
+6번 PopOut_Loop
+7번 PopOut_Start
+8번 손잡이 안돌아가고 가만히 있음
+
+////////////////////////////////////
+Generator
+0번 close
+1번 IDLE
+2번 Open
+3번 Open and Rotation (레이저 공격중인 모션)
+4번 Take_Hit(공격 맞아서 들어가는 모션)
+
+/////////////////////////////////////////
+Receiver
+0번 close (닫히는 중인 모션)
+1번 IDLE (계속 닫혀있는 중)
+2번 Open(열리는 중인 모션)
+3번 Open_IDLE(계속 열려있는 모션)
+
+/////////////////////////////////////////
+Ntropy Male
+0번 Aggressive_Float_Forward -> 공격적으로 날아옴 -> 전기기둥 쏠 때 이 모션
+1번 Angry_Start -> 갑자기 검지손가락 치켜올리더니 화남
+2번 ChargeUp -> 레이저 쏘는게 5개 부서지고 화가나서 두 손 들어올릴 때 모션
+3번 DramaticEntrance -> 벌처럼 날아댕기다 옴
+4번 Electrocution_In
+5번 Electrocution_Loop -> 전기 맞을 떄
+6번 Locomotion_Backward 
+7번 Locomotion_Forward -> 앞으로 상체를 기울이고 날아감
+8번 Locomotion_Starfe_Left -> 모델 기준 왼쪽으로 날아감(내 기준으로는 오른쪽으로 간다)
+9번 Locomotion_Starfe_Right -> 모델 기준 오른쪽으로 날아감(내 기준으로는 왼쪽으로 간다)
+10번 Horizontal_Beam_Attack_In
+11번 Horizontal_Beam_Attack_Shoot -> 공 2개 쏠 때 모션
+12번 IDLE -> 무기 일자로 들고 그냥 붕 떠있음
+13번 IDLE_Variation -> IDLE중에 좀 화난 표정
+14번 Interrupting_Hit
+15번 KnockBack_Loop -> 번개맞고 뒤로 날아가는 모습
+16번 NTropyIntro_PartA -> 초반에 주인공에게 다가오는 모습
+17번 NTropyIntro_PartB -> 무기 휘두는 모습
+18번 Land's On_Ground -> 지고나서 부딪혀서 틩기고 땅에 무기 짚는 모습
+19번 Lands On_Ground_Loop -> 지고나서 무기를 땅에 짚고 헐떡이는 모션
+20번 Pairedldle -> 어떤 우쭐한 모션
+21번 Victory
+22번 Victory_IN
+23번 Victory_Out
+24번 Working_on_Machine
+/////////////////////////////////////////
+NtropyFemale
+0번 ChargeUp_Vulnerable_IN -> 화나서 두 손으로 무기 들어올림
+1번 Aggressive_float_forward -> 공격적으로 날아옴 -> 전기기둥 쏠 때 이 모션
+2번 ChargeUp_Vulnerable_LOOP -> 화나서 두 손으로 무기 들어올림
+3번 DramaticEntrance -> 벌처럼 날아옴
+4번 Electrocution_IN ->전기맞기 초반
+5번 Electrocution_LOOP -> 전기맞는 중
+6번 Angry_Start -> NtropyMale이 전기 맞고 튕겨나갈 때 쓰이는 모션
+7번 Locomotion_Backward -> 
+8번 Locomotion_Forward
+9번 Locomotion_Strafe_Left
+10번 Locomotion_Strafe_Right
+11번 IDLE -> 무기로 플레이어를 가리킨다
+12번 IDLE_variation -> 무기로 플레이어를 가리키는데 뭔가 얼굴을 좀더 찡그린다
+13번 IDLE_to_Generating_VerticlaShoot -> sphere 쏠 때 창 올리는 모션
+14번 Interrupt_IN -> 날아가려는 모습
+15번 KnockedBack_LOOP -> 날아가는 중
+16번 NTropyIntro_PartA -> 초반 등장 씬
+17번 NTropyIntro_PartB -> A에서 B로 이어진다. B는 마무리 동작
+18번 LandOnGround -> 전기맞아 튕기고 땅에 떨어지는 모션
+19번 LandOnGround_LOOP -> 땅에 떨어져서 무기짚고 헐떡인다.9
+20번 PairedIDLE -> 우쭐한 모션 -> 
+21번 verticalShoot -> sphere 쏠 때 이거다
+22번 victory
+23번 working_on_Machin_IDLE
+
+//////////////////////////////////////
+BossPlayer
+0번 Celebrate_bow
+1번 Attack_Slide_IN
+2번 Attack_Slide_LOOP
+3번 Attack_Slide_OUT
+4번 Attack_SPIN2_LOOP
+5번 Attack_SPIN2_OUT
+6번 Attack_SPIN3_LOOP
+7번 Attack_SPIN3_OUT
+8번 Attack_SpinSweep
+9번 DANCE
+10번 Death_Electrocuted
+11번 IDLE
+12번 JumpApex
+13번 JumpApexMoving
+14번 Jump_Fall_Loop
+15번 Jump_Land
+16번 Jump_Land_Run
+17번 Jump_Start
+18번 Jump_UpLoop
+19번 Run_AKU
+20번 Run_Sprint
+21번 Run_Start
+22번 Run_Stop
